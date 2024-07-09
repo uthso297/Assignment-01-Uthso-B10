@@ -61,6 +61,7 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 /* Why web development section */
@@ -112,7 +113,7 @@
     padding: 10px;
     font-size: 17px;
     background-color: white;
-
+    cursor: pointer;
 }
 
 /* content-3 */
@@ -140,7 +141,7 @@
     font-size: 17px;
     background-color: white;
 
-
+    cursor: pointer;
 }
 
 /* content-4 */
@@ -166,9 +167,11 @@
     padding: 10px;
     font-size: 17px;
     background-color: white;
+    cursor: pointer;
 }
+
 /* inspiration */
-.inspiration{
+.inspiration {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -177,22 +180,107 @@
     gap: 20px;
     height: 500px;
 }
-.inspiration-text{
+
+.inspiration-text {
     text-align: center;
 }
-.inspiration-text h2{
+
+.inspiration-text h2 {
     font-weight: 1000;
 }
-.inspiration-text p{
+
+.inspiration-text p {
     font-size: 13px;
 }
-.inspiration-video{
+
+.inspiration-video {
     display: flex;
     justify-content: center;
-    
+
 }
-.inspiration-video iframe{
+
+.inspiration-video iframe {
     padding: 24px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 20px;
+}
+
+/* current target section */
+.current-target{
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.current-target-text{
+    text-align: center;
+}
+.current-target-text p{
+    font-size: 13px;
+}
+.current-target-languages {
+    display: flex;
+    gap: 20px;
+}
+.html,.css,.javascript{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        gap: 10px;
+        padding: 40px;
+}
+.html{
+    background-color: #fff5f3;
+    border-radius: 16px;
+}
+.css{
+   background-color: #f3f6ff;
+   border-radius: 16px;
+}
+.javascript{
+   background-color: #fffdf1;
+   border-radius: 16px;
+}
+.current-target-languages p{
+    font-size: 10px;
+}
+.current-target-languages a{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* next target section */
+.next-target{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    height: auto;
+}
+.next-target-text{
+    text-align: center;
+}
+.next-target p{
+    font-size: 13px;
+}
+.next-target a{
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+}
+.reactjs,.nodejs,.mongodb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 16px;
+    gap:40px;
 }
