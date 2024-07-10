@@ -284,3 +284,46 @@
     border-radius: 16px;
     gap:40px;
 }
+/* support section */
+.support{
+    width: 90%;
+    margin: 0 auto;
+    height: 320px;
+    border-radius: 16px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.support .support-title{
+          text-align: center;
+}
+.support h2{
+    font-size: 32px;
+}
+.support p{
+    font-size: 13px;
+    opacity: 0.6;
+}
+.support-submit{
+    text-align: center;
+}
+.support-submit .feedback{
+       width:50%;
+       height: 40px;
+       padding-left: 20px;
+       border-radius: 8px;
+}
+.support-submit>.submit{
+    width:10%;
+    height: 45px;
+    color: black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+}
