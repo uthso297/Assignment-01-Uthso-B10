@@ -209,13 +209,13 @@
 .inspiration-video {
     display: flex;
     justify-content: center;
-
+    
 }
 
 .inspiration-video iframe {
     padding: 24px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 20px;
+    border-radius: 35px;
 }
 
 /* current target section */
