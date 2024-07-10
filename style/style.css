@@ -57,7 +57,9 @@
 .hero h1 {
     font-size: 30px;
 }
-
+.hero p{
+    opacity: 0.6;
+}
 .hero .hero-text button {
     background-color: black;
     color: white;
@@ -110,6 +112,7 @@
 
 .content-2-text p {
     font-size: 13px;
+    opacity: 0.6;
 }
 
 .content-2-text h2 {
@@ -137,6 +140,7 @@
 
 .content-3-text p {
     font-size: 13px;
+    opacity: 0.6;
 }
 
 .content-3-text h2 {
@@ -164,6 +168,7 @@
 
 .content-4-text p {
     font-size: 13px;
+    opacity: 0.6;
 }
 
 .content-4-text h2 {
@@ -266,6 +271,7 @@
 
 .current-target-languages p {
     font-size: 12px;
+    opacity: 0.6;
 }
 
 .current-target-languages a {
